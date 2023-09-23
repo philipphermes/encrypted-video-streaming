@@ -1,7 +1,7 @@
 # Encrypted Videoplayer with Hls
 
 ## Convert video
-change video in convert.js: `ffmpeg('cube0001-0120.mp4', {timeout: 432000}).addOptions([`
+change video in converter.js: `ffmpeg('cube0001-0120.mp4', {timeout: 432000}).addOptions([`
 run:
 ```shell
 npm run convert
