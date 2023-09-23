@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Video</title>
+    </head>
+    <body>
+        <video id="video" width="500" height="500" controls></video>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+        <script>
+            console.log('test');
+            const video = document.getElementById('video')
+            const videoSrc = '/output/video.m3u8'
+
+            if (Hls.isSupported()) {
+                const hls = new Hls()
+
+                hls.loadSource(videoSrc)
+                hls.attachMedia(video)
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = videoSrc
+            }
+        </script>
+    </body>
+</html>
