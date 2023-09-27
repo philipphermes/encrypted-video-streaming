@@ -16,4 +16,4 @@ visit: http://localhost:3000
 
 <hr />
 
-Source: https://medium.com/@HoseungJang/video-streaming-with-node-js-9401213a04e7
+In this repo you can see how you could implement it: https://github.com/philipphermes/stream-wave
