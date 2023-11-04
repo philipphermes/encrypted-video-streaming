@@ -13,7 +13,3 @@ check output folder
 npm run serve
 ```
 visit: http://localhost:3000
-
-<hr />
-
-In this repo you can see how you could implement it: https://github.com/philipphermes/stream-wave
